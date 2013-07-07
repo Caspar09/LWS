@@ -1,0 +1,81 @@
+
+<html lang="en">
+  <head>
+    <meta charset="gb2312">
+    <title>Learning Workflow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Supported by toyhouse China">
+    <meta name="author" content="LMANA">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+<body>
+<form action="Addresource.php" method="post">
+	
+  <p>Resource type: 
+  	<br />
+			<input type="radio" name="rtype" value="Gold" /> Gold
+			<input type="radio" name="rtype" value="Exp" /> Exp
+			<input type="radio" name="rtype" value="LP" /> LP
+			
+</p>
+<p>Resource Amonut:
+	<br />
+	<input type="text" name = "record" /> 
+	</p>
+  <p>Attribute:
+  	<br />
+  	
+			<input type="radio" name="attribute" value="Math" /> Math
+			<input type="radio" name="attribute" value="CS" /> CS
+			<input type="radio" name="attribute" value="Engineering" /> Engineering
+			<br />
+			<input type="radio" name="attribute" value="Art" /> Art
+			<input type="radio" name="attribute" value="Literature" /> Literature
+			
+		</p>
+		<p>
+		Description:	<br />
+    <textarea name="description" rows="2"></textarea>
+</p> 
+	<p>
+		Link:	<br />
+    <textarea name="link" rows="2"></textarea>
+</p> 
+  <p>stratdate:<br />
+    <input type="date" name="startdate"  rows="2"/></p>
+  <p>enddate:     <br />
+    <input type="date" name="enddate" rows="2" />
+  </p>
+ 
+  <p>
+    <input type="submit" />
+  </p>
+</form>
+
+</body>
+</html>
